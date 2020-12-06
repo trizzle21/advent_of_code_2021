@@ -14,5 +14,5 @@ def run() -> int:
 
 
 if __name__ == '__main__':
-    result = run()
-    print(f'result: {result}')
+    missing_seat = run()
+    print(f'result: {missing_seat}')
