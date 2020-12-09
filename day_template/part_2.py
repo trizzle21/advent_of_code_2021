@@ -8,7 +8,7 @@ LOG = logging.getLogger()
 
 
 def run() -> int:
-    with open('input.txt', 'r') as f:
+    with open('test_input.txt.txt', 'r') as f:
         lines = [str(value).strip('\n') for value in f.readlines()]
     return len(lines)
 

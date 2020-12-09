@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DAY=9
+DAY=10
 day_package="day_${DAY}"
 
 cp -R day_template $day_package
